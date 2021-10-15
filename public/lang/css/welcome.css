@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+
+.welcome-image{
+	background-image: url("../../assets/images/welcome.jpg");
+	background-size: cover;
+}
+
+.branding{
+	text-align: center;
+}
+
+.branding h1,.branding p{
+	font-family: 'Alata', sans-serif;
+}
+
+.branding h1{
+	font-weight: bold;
+	font-size: 45px;
+	padding: 0;
+	margin: 0;
+}
+
+.branding p{
+	font-weight: normal;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	color: #848484;
+}
+
+
+/* --- css coding for signup form --- */
+.welcome-form-input{
+	padding-left: 0;
+	padding-top: 0;
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	text-transform: lowercase;
+}
+
+.welcome-form-input:focus{
+	box-shadow: none !important;
+}
+
+.submit-btn{
+	background-color: #fc6201;
+	color: white;
+}
+/* ---end css coding for signup form --- */

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+.page{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.icon{
+	font-size: 80px;
+
+}
+
+h1{
+	font-family: 'Alata',sans-serif;
+}

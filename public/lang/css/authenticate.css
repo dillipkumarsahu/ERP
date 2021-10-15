@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.branding{
+	border-bottom: 1px dashed white;
+	margin-bottom: 15px;
+}
+.branding h1,.branding p{
+	font-family: 'Alata', sans-serif;
+}
+
+.branding h1{
+	font-weight: bold;
+	font-size:50px;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 5px
+}
+
+.branding p{
+	color: #848484;
+	font-weight: normal;
+	letter-spacing: 3px;
+	word-spacing: 5px
+}
+
+.page{
+	width: 380px;
+	height: auto;
+	background: #00092b;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius : 4px;
+}
+
+.admin-form input,.admin-form button{
+	border: none;
+}
+
+.admin-form label{
+	color: white;
+}
+
+.nav{
+	border:none;
+}
+
+.nav-link{
+	color: #DC3550 !important;
+	margin-right: 20px;
+	padding-left:0 !important;
+	padding-right:0 !important;
+}
+
+.nav-link:hover{
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-width: 3px !important;
+	color: white !important;
+}
+
+.active{
+	background-color: inherit !important;	
+	color: white !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-width: 3px !important;
+}
+
+@media(max-width:768px)
+{
+	.page{
+		width: 100%;
+		height: auto;
+		background: #00092b;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: translate(0,0);
+		border-radius : 0px;
+	}
+}
+
+.preloader{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin-left: 20px;
+}
+.spinner{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border-top: 5px solid #ff3f34;
+    box-shadow: 4px 4px 5px #d2d2d2 inset;
+    border-right: 10px solid transparent;
+    border-radius: 50%;
+    animation: 1.5s spin linear infinite;
+}
+.spinner-2{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    border-top: 5px solid #0fbcf9;
+    border-left: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    animation: 1.5s spin-2 linear infinite;
+}
+@keyframes spin{
+    from{ transform: rotate(0deg); }
+    to{ transform: rotate(360deg); }
+}
+@keyframes spin-2{
+    from{ transform: rotate(360deg); }
+    to{ transform: rotate(0deg); }
+}

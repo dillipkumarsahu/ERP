@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.sidenav{
+	width: 17%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 1000;
+	overflow-y: auto;
+}
+
+.page{
+	margin-left: 17%;
+	width: 83%;
+}
+
+
+@media(max-width: 1366px)
+{
+	.sidenav{
+		width: 20%;
+	}
+	.page{
+		margin-left: 20%;
+		width: 80%;
+	}
+}
+
+.admin-area{
+	margin-top: 60px;
+}
+.navbar{
+	background-color: #00092B;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+.navbar a{
+	color: white !important;
+}
+
+
